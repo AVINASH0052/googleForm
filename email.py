@@ -40,7 +40,7 @@ def send_email():
     msg.attach(MIMEText(body, "plain"))
 
     # Attach file
-    file_path = "/path/to/assignment.zip"  # Replace with actual file path
+    file_path = "assignment.zip"  # Replace with actual file path
     with open(file_path, "rb") as attachment:
         part = MIMEBase("application", "octet-stream")
         part.set_payload(attachment.read())
