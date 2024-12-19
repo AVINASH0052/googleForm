@@ -11,7 +11,7 @@ This script automates the filling of a Google Form using Selenium. It locates an
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-link>
+   git clone git@github.com:AVINASH0052/googleForm.git
    ```
 2. Install dependencies:
    ```bash
@@ -28,7 +28,7 @@ This script automates the filling of a Google Form using Selenium. It locates an
 ### Usage
 1. Run the script:
    ```bash
-   python <script-name>.py
+   python main.py
    ```
 2. The browser will open and interact with the Google Form.
 3. The form will be filled and submitted automatically.
